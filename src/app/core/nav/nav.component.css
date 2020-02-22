@@ -1,0 +1,36 @@
+ul {
+    list-style-type: none;
+    margin-top: 0px;
+    padding: 0;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #6050dc;
+}
+
+.left-nav-items li {
+    float: left;
+}
+
+.right-nav-items li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #6050dc;
+}
+
+#my-messages-icon {
+    width: 25px;
+    height: 25px;
+}
